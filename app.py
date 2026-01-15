@@ -107,4 +107,5 @@ try:
         st.dataframe(df)
 
 except Exception as e:
-    st.error(f"Something went
+    st.error(f"Something went wrong: {e}")
+
